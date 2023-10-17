@@ -12,8 +12,8 @@ namespace CartasPapaiNoel.API.Controllers
 	public class CartasController : ControllerBase
 	{
 
-		ICartaRepository _service { get; set; }
-		public CartasController(ICartaRepository service) {
+		ICartaService _service { get; set; }
+		public CartasController(ICartaService service) {
 			_service = service;
 		}
 
